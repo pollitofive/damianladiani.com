@@ -12,6 +12,14 @@
                 <template v-for="item in items_menu">
                     <menu-item :id="item.id" :descripcion="item.descripcion"></menu-item>
                 </template>
+
+
+                <template v-if="languaje == 'es'">
+                    <router-link class="nav-item" tag="li" to="/en"><a class="nav-link js-scroll-trigger">En</a></router-link>
+                </template>
+                <template v-else>
+                    <router-link class="nav-item" tag="li" to="/es"><a class="nav-link js-scroll-trigger">Es</a></router-link>
+                </template>
             </ul>
         </div>
     </nav>
@@ -22,7 +30,7 @@
     import MenuItem from '../Components/menu-item.vue'
 
     export default {
-        props: ['items_menu'],
+        props: ['items_menu','languaje'],
         components: {
             'img-profile': ImageProfile,
             'menu-item': MenuItem

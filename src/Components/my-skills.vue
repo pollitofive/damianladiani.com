@@ -29,7 +29,7 @@
             </li> 
             <li> 
                 <i class="fa-li fa fa-check"></i> 
-                Vue.js ++
+                Vue.js +++
             </li> 
         </section> 
         <section style="width: 50%;margin: 0;padding: 0; float: left"> 
