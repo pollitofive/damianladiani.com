@@ -6,12 +6,16 @@
         </div>
         <div class="resume-date text-md-right">
             <span class="text-primary">{{ time }}</span>
+            <template v-if="second_time">
+                <br>
+                <span class="text-primary">{{ second_time }}</span>
+            </template>
         </div>
     </div>
 </template>
 
 <script>
     export default {
-        props: ['university','career','time']
+        props: ['university','career','time','second_time']
     }
 </script>
