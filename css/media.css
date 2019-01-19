@@ -1,0 +1,70 @@
+body {
+    position: relative;
+}
+
+h1.mb-0 {
+    margin-top: 20px;
+}
+
+.lead.mb-5 {
+    text-align: justify;
+    font-size: 1.30rem;
+}
+
+.subheading {
+    font-size: 1.75rem;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+section.resume-section {
+    padding-top: 0 !important;
+}
+
+.my-auto{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.resume-date.text-md-right {
+    margin-bottom: 2.5rem;
+}
+
+.list-inline.dev-icons {
+    text-align: center;
+}
+
+@media screen and (max-width: 500px)
+{
+    h1 span.text-primary {
+        display: block;
+    }
+
+    .experience-technologies{
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 380px)
+{
+    h1 {
+        font-size: 5rem;
+    }
+
+    .subheading.mb-5 {
+        font-size: 1.25rem;
+    }
+
+    .lead.mb-5
+    {
+        font-size: 1rem;
+    }
+
+    .my-auto {
+        font-size: 1rem
+    }
+
+}

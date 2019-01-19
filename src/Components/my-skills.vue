@@ -1,6 +1,6 @@
 <template>
     <ul class="fa-ul mb-0"> 
-        <section style="width: 50%;margin: 0;padding: 0; float: left"> 
+        <section class="experience-technologies">
             <li> 
                 <i class="fa-li fa fa-check"></i> 
                 PHP ++++
@@ -32,7 +32,7 @@
                 Vue.js +++
             </li> 
         </section> 
-        <section style="width: 50%;margin: 0;padding: 0; float: left"> 
+        <section class="experience-technologies">
             <li> 
                 <i class="fa-li fa fa-check"></i> 
                 HTML5 +++</li> 
