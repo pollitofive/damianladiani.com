@@ -11,7 +11,7 @@
 
             <app-education :items_education="items_education" title="Education"></app-education>
 
-            <app-skills title="Skills" sub_title_one="Programming Languages &amp; Tools" sub_title_two="Experience with technologies"></app-skills>
+            <app-skills title="Skills"></app-skills>
 
             <app-interests title="Interests" :items_interests="items_interests"></app-interests>
 
@@ -39,7 +39,7 @@
         name: 'app',
         data () {
         return {
-            my_description: "I am a web developer, I worked in Argentinian Army (Ejército Argentino),Ministry of Defense (Ministerio de Defensa) and I’m actually working in Ministry of Segurity (Ministerio de Seguridad). I'm proactive and passionate about programming and the leadership. My objective is to become a systems engineer and to be excellent professional.",
+            my_description: "I am a web developer, I worked in Argentinian Army (Ejército Argentino),Ministry of Defense (Ministerio de Defensa) and I’m actually working in Ministry of Segurity (Ministerio de Seguridad). I'm proactive and passionate about programming and leadership. My objective is to become a systems engineer and to be excellent professional.",
             items_menu: [{
                 'id': '#about',
                 'descripcion': 'About'
@@ -88,8 +88,8 @@
             ],
             items_education: [
                 {
-                    university: 'CAECE',
-                    career: 'Engineer in systems',
+                    university: 'University CAECE',
+                    career: 'Engineer in systems (in progress)',
                     time: 'August 2014 - Someday, I hope',
                     second_time: ''
                 },
@@ -101,7 +101,7 @@
                 },
                 {
                     university: 'Highland',
-                    career: 'I have studied 3 years english in the institute Highland (Grand Bourg)',
+                    career: 'I have studied 3 years english in the institute Highland',
                     time: 'March 2010 - December 2011',
                     second_time: 'March 2015 - December 2015'
                 },

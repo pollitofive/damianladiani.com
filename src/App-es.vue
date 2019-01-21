@@ -11,7 +11,7 @@
 
       <app-education :items_education="items_education" title="Educación"></app-education>
 
-      <app-skills title="Habilidades" sub_title_one="Lenguajes de Programación, herramientas" sub_title_two="Experiencia con las tecnologías"></app-skills>
+      <app-skills title="Habilidades"></app-skills>
 
       <app-interests title="Intereses" :items_interests="items_interests"></app-interests>
 
@@ -42,7 +42,7 @@ export default {
   data () {
     return {
 
-      my_description: "Soy desarrollador web, trabajé en el Ejército Argentino, Ministerio de Defensa y actualmente estoy trabajando en el Ministerio de Seguridad. Me considero una persona proactiva, apasionada de la programación y del liderazgo. Mi objectivo es convertirme en ingeniero en sistemas y ser un excelente profesional.",
+      my_description: "Soy desarrollador web, trabajé en el Ejército Argentino, Ministerio de Defensa de la Nación y actualmente estoy trabajando en el Ministerio de Seguridad de la Nación. Me considero una persona proactiva, apasionada de la programación y del liderazgo. Mi objectivo es convertirme en ingeniero en sistemas y ser un excelente profesional.",
       items_menu: [{
           'id': '#about',
           'descripcion': 'Sobre mi'
@@ -91,9 +91,9 @@ export default {
       ],
       items_education: [
         {
-          university: 'CAECE',
-          career: 'Ingeniería en sistemas',
-          time: 'Agosto 2014 - Algún dia, espero',
+          university: 'Universidad CAECE',
+          career: 'Ingeniería en sistemas (en curso)',
+          time: 'Agosto 2014 - Algún día, espero',
           second_time: ''
         },
         {
@@ -104,7 +104,7 @@ export default {
         },
         {
           university: 'Highland',
-          career: 'He estudiado 3 años inglés en el instituto Highland(Grand Bourg)',
+          career: 'He estudiado 3 años inglés en el instituto Highland',
           time: 'Marzo 2010 - Diciembre 2011',
           second_time: 'Marzo 2015 - Diciembre 2015'
         },
@@ -117,10 +117,10 @@ export default {
       ],
       items_interests: [
         {
-          'description': 'Cuando no estoy trabajando o estudiando, me gusta mirar cursos en linea sobre nuevas tecnologías.'
+          'description': 'Cuando no estoy trabajando o estudiando, me gusta mirar cursos en línea sobre nuevas tecnologías.'
         },
         {
-          'description': 'Por otro lado, disfruto mirar series y películas. Me encanta ver fútbol y jugar de vez en cuando con mis amigos algún juego en linea. Cuando puedo, voy a correr o a nadar también.'
+          'description': 'Por otro lado, disfruto mirar series y películas. Me encanta ver fútbol y jugar de vez en cuando con mis amigos algún juego en línea. Cuando puedo, voy a correr o a nadar también.'
         },
         {
           'description': 'Me considero un amante de los viajes. Viajo siempre que puedo porque disfruto conocer lugares nuevos, hacer trekking y contemplar hermosos paisajes.'

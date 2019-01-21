@@ -4,11 +4,7 @@
             <div class="my-auto">
                 <h2 class="mb-5">{{ title }}</h2>
 
-                <div class="subheading mb-3">{{ sub_title_one }}</div>
-
                 <languajes-tools></languajes-tools>
-
-                <div class="subheading mb-3">{{ sub_title_two }}</div>
 
                 <my-skills></my-skills>
 
@@ -23,7 +19,7 @@
     import MySkills from '../Components/my-skills.vue'
 
     export default {
-        props: ['title','sub_title_one','sub_title_two'],
+        props: ['title'],
         components: {
             'languajes-tools': LanguajesTools,
             'my-skills': MySkills
