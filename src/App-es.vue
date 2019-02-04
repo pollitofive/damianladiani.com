@@ -93,7 +93,7 @@ export default {
         {
           university: 'Universidad CAECE',
           career: 'Ingeniería en sistemas (en curso)',
-          time: 'Agosto 2014 - Algún día, espero',
+          time: 'Agosto 2014 - Diciembre 2021',
           second_time: ''
         },
         {
@@ -104,7 +104,7 @@ export default {
         },
         {
           university: 'Highland',
-          career: 'He estudiado 3 años inglés en el instituto Highland',
+          career: 'He estudiado 3 años inglés en el instituto Highland, mi es nivel intermedio',
           time: 'Marzo 2010 - Diciembre 2011',
           second_time: 'Marzo 2015 - Diciembre 2015'
         },

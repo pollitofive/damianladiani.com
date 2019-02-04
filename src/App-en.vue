@@ -90,7 +90,7 @@
                 {
                     university: 'University CAECE',
                     career: 'Engineer in systems (in progress)',
-                    time: 'August 2014 - Someday, I hope',
+                    time: 'August 2014 - December 2021',
                     second_time: ''
                 },
                 {
@@ -101,7 +101,7 @@
                 },
                 {
                     university: 'Highland',
-                    career: 'I have studied 3 years english in the institute Highland',
+                    career: 'I have studied 3 years english in the institute Highland, my level is intermediate',
                     time: 'March 2010 - December 2011',
                     second_time: 'March 2015 - December 2015'
                 },
