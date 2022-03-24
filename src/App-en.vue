@@ -154,7 +154,7 @@
             ],
             items_interests: [
                 {
-                    'description': "When I'm not working, I like waching courses in <a href='https://platzi.com/p/damianladiani/' target='_blank'>Platzi</a> or <a href='http://www.laracast.com' target='_blank'>Laracast</a> about new technologies or improving my english's level with <a href='http://virtualenglishlessons.com.ar/es' target='_blank'>virtualenglishlessons</a>. Today, I'm a passionate person about the crypto-world, so I watch a lot videos about this topic lately and I aspire to be a developer of web3."
+                    'description': "When I'm not working, I like watching courses in <a href='https://platzi.com/p/damianladiani/' target='_blank'>Platzi</a> or <a href='http://www.laracast.com' target='_blank'>Laracast</a> about new technologies or improving my english's level with <a href='http://virtualenglishlessons.com.ar/es' target='_blank'>virtualenglishlessons</a>. Today, I'm a passionate person about the crypto-world, so I watch a lot videos about this topic lately and I aspire to be a developer of web3."
                 },
                 {
                     'description': 'For other side, I enjoy watching series and movies. I love to see football and also play and watch Age of empires II. When I can, I go to run and go to swim too.'
