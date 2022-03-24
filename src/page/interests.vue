@@ -3,7 +3,7 @@
         <div class="my-auto">
             <h2 class="mb-5">{{ title }}</h2>
             <template v-for="interest in items_interests">
-                <p>{{ interest.description }}</p>
+                <p v-html='interest.description'></p>
             </template>
         </div>
     </section>

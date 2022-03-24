@@ -53,7 +53,7 @@
             </li>
             <li>
                 <i class="fa-li fa fa-check"></i>
-                Docker ++
+                Docker +++
             </li>
             <li>
                 <i class="fa-li fa fa-check"></i>
@@ -62,6 +62,10 @@
             <li>
                 <i class="fa-li fa fa-check"></i>
                 English +++
+            </li>
+            <li>
+                <i class="fa-li fa fa-check"></i>
+                TDD +++
             </li>
         </section>
     </ul>
