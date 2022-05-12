@@ -71,13 +71,13 @@
             experiences: [
                 {
                     position: 'Freelance Programmer',
-                    description: "Programmer of PHP systems, pages and APIs, some projects individually and others with friends, for different purposes. In the past, I developed a car insurance system, another one for an ice cream shop, until recently I was developing a reverse auction platform, and currently I'm maintaining limesurvey plugins.",
+                    description: "Programmer of PHP systems, pages and APIs, some projects individually and others with friends, for different purposes. In the past, I developed a car insurance system, another one for an ice cream shop, until recently I was developing a reverse auction platform, and I currently do maintenance of limesurvey plugins.",
                     time: 'Since 2009',
                     company: ''
                 },
                 {
-                    position: 'Desarrollador Web Semi Senior',
-                    description: 'Programmer analyst, working in a system called Dispo, that handles the opportunities of sell, products and records of the company, between other things. Además, hago revisiones de código en laravel, para proponer mejores prácticas de una migración que se está llevando a cabo dentro de la compañía',
+                    position: 'Senior Web Developer',
+                    description: 'Programmer analyst, working in a system called Dispo, that handles the opportunities of sell, products and records of the company, between other things. In addition, I do code reviews in laravel, where I can propose best practices in a migration that is currently happening within the company.',
                     time: 'Marzo 2019 - Hoy',
                     company: 'Metrotel'
                 },
